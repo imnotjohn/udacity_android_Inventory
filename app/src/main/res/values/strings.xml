@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="empty_view_string">Database needs to be populated!</string>
+    <string name="btn_delete">delete</string>
+    <string name="btn_order">order</string>
+    <string name="btn_sale">sale</string>
+    <string name="btn_received">rec\'d</string>
+    <string name="btn_save">save</string>
+</resources>

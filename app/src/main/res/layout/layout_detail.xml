@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/list_container"
+    android:id="@+id/list_item_detail">
+
+    <!--<TextView-->
+        <!--style="@style/list_item_productDetail"-->
+        <!--android:id="@+id/list_item_ID"-->
+        <!--android:text="_ID" />-->
+
+    <ImageView
+        android:id="@+id/list_item_imageDetail"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:background="#f6f6f6"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        style="@style/list_item_productDetail"
+        android:id="@+id/list_item_productName"
+        android:text="Product Name"
+        android:layout_weight="1"/>
+
+    <TextView
+        style="@style/list_item_productDetail"
+        android:id="@+id/list_item_price"
+        android:text="Price: $3.16"
+        android:layout_weight="1"/>
+
+    <TextView
+        style="@style/list_item_productDetail"
+        android:id="@+id/list_item_qty"
+        android:text="Qty: 0"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp" >
+        <Button
+            android:id="@+id/btn_sellIventoryItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:text="@string/btn_sale"
+            android:textColor="#666666" />
+        <Button
+            android:id="@+id/btn_receivedIventoryItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:text="@string/btn_received"
+            android:textColor="#666666" />
+        <Button
+            android:id="@+id/btn_resupplyIventoryItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:text="@string/btn_order"
+            android:textColor="#666666" />
+        <Button
+            android:id="@+id/btn_deleteIventoryItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:text="@string/btn_delete"
+            android:textColor="#666666" />
+
+    </LinearLayout>
+        <Button
+            android:id="@+id/btn_save_edited_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:text="@string/btn_save"
+            android:textColor="#666666"
+            android:background="#00cc00"/>
+    </LinearLayout>
+</LinearLayout>
